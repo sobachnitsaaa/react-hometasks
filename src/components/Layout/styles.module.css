@@ -1,9 +1,22 @@
-.title {
-  text-align: center;
-  padding: 1rem;
+.root {
+  display: flex;
+  position: relative;
+  height: 100vh;
+}
+
+.navigation {
+  width: 400px;
+  height: 100%;
+  overflow: auto;
+  flex-shrink: 0;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.title {
+  text-align: center;
 }

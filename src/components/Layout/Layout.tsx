@@ -1,16 +1,19 @@
 import { FC, PropsWithChildren } from "react";
+import { Navigation } from "../Navigation/Navigation";
+import { useCurrentRoute } from "../../hooks/useCurrentRoute";
 
 import s from "./styles.module.css";
 
-interface IProps {
-  title: string;
-}
+export const Layout: FC<PropsWithChildren> = ({ children }) => {
+  const { title, description } = useCurrentRoute();
 
-export const Layout: FC<PropsWithChildren<IProps>> = ({ title, children }) => {
   return (
-    <>
-      <h2 className={s.title}>{title}</h2>
-      <div className={s.container}>{children}</div>
-    </>
+    <div className={s.root}>
+      <Navigation className={s.navigation} />
+      <div className={s.container}>
+        <h2 className={s.title}>{description || title}</h2>
+        {children}
+      </div>
+    </div>
   );
 };
