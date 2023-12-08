@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-hometasks/static/css/main.b741be1a.css",
-    "main.js": "/react-hometasks/static/js/main.8092606a.js",
+    "main.css": "/react-hometasks/static/css/main.ba3e080e.css",
+    "main.js": "/react-hometasks/static/js/main.ddea74c4.js",
     "static/js/787.c8a8309b.chunk.js": "/react-hometasks/static/js/787.c8a8309b.chunk.js",
     "static/media/six.png": "/react-hometasks/static/media/six.117920ba40d01c7f2f3c.png",
     "static/media/five.png": "/react-hometasks/static/media/five.e92046de31c1c06dafb6.png",
@@ -10,12 +10,12 @@
     "static/media/two.png": "/react-hometasks/static/media/two.8b48680b64a35c6a3e93.png",
     "static/media/one.png": "/react-hometasks/static/media/one.27d68629b103d2859d73.png",
     "index.html": "/react-hometasks/index.html",
-    "main.b741be1a.css.map": "/react-hometasks/static/css/main.b741be1a.css.map",
-    "main.8092606a.js.map": "/react-hometasks/static/js/main.8092606a.js.map",
+    "main.ba3e080e.css.map": "/react-hometasks/static/css/main.ba3e080e.css.map",
+    "main.ddea74c4.js.map": "/react-hometasks/static/js/main.ddea74c4.js.map",
     "787.c8a8309b.chunk.js.map": "/react-hometasks/static/js/787.c8a8309b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b741be1a.css",
-    "static/js/main.8092606a.js"
+    "static/css/main.ba3e080e.css",
+    "static/js/main.ddea74c4.js"
   ]
 }
