@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cube {
+    width: 250px;
+    height: 250px;
+}
+
+.animation{
+    animation: horizontal-shaking 0.15s, tilt_move_shake 0.15s;
+}
+
+.btn{
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+    background: linear-gradient(40deg, rgba(238,42,34,1) 0%, rgba(242,131,22,1) 35%, rgba(246,209,11,1) 100%);
+    border: 1px solid rgba(242,131,22,1);
+    color: #fff;
+
+    transition: all 0.2s ease-in;
+
+    &:hover{
+        color: #111;
+
+    }
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    0% { transform: translateY(0) }
+    25% { transform: translateX(5px) }
+    25% { transform: translateY(5px) }
+    50% { transform: translateX(-5px) }
+    50% { transform: translateY(-5px) }
+    75% { transform: translateX(5px) }
+    75% { transform: translateY(5px) }
+    100% { transform: translateX(0) }
+    100% { transform: translateY(0) }
+}
+
+@keyframes tilt_move_shake {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0deg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
