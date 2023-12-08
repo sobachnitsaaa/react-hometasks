@@ -1,0 +1,22 @@
+.wrapper{
+    margin-top: 16px;
+    padding-right: 16px;
+}
+
+.scrollbar{
+    position: sticky;
+    top: 0;
+    transform-origin: top left;
+    z-index: 10;
+
+    height: 12px;
+
+    background: rgba(242,131,22,1);
+}
+
+.text{
+    height: 10000px;
+    margin-top: 20px;
+
+    text-align: justify;
+}

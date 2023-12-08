@@ -21,6 +21,7 @@
 
     background: linear-gradient(40deg, rgba(238,42,34,1) 0%, rgba(242,131,22,1) 35%, rgba(246,209,11,1) 100%);
     border: 1px solid rgba(242,131,22,1);
+    border-radius: 5px;
     color: #fff;
 
     transition: all 0.2s ease-in;

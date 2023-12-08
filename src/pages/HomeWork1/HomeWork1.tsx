@@ -23,12 +23,9 @@ export const HomeWork1 = () => {
 
     const handleClick = () => setTwist(Math.floor(Math.random() * 6) + 1);
 
-    console.log(animation);
 
   return (
       <>
-        <div>Решение домашнего задания №1</div>
-
         <div className={styles.container}>
             <button className={styles.btn} onClick={() => {
                 handleClick();
